@@ -43,6 +43,8 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
 - **Framework**: Next.js
 
 ---
+### Movie Data Source Link:
+- [Movie Data Source Link HuggingFace](https://huggingface.co/datasets/MongoDB/embedded_movies)
 
 ## Setup Instructions
 
