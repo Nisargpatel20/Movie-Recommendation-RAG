@@ -9,18 +9,19 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
 - [Setup Instructions](#setup-instructions)
   - [Backend](#backend)
   - [Frontend](#frontend)
-- [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
-- [License](#license)
+
 
 ---
 
 ## Features
 
-- Conversational chatbot powered by OpenAI API and Retrieval-Augmented Generation (RAG).
+- Conversational chatbot powered by Langchain, OpenAI API and Retrieval-Augmented Generation (RAG).
 - Movie recommendations based on retrieved context.
 - Context-aware, maintaining a history of user interactions.
 - Modular architecture for seamless integration.
+- Query responses have unique URLs that work across page refresh
+- Query history
 
 ---
 
@@ -57,7 +58,9 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
    ```bash
    git clone https://github.com/your-username/movie-recommendation-rag.git
    cd movie-recommendation-rag/backend
+   cd movie-recommendation-rag/frontend
 
 ### Running the both frontend and backend
-backend: uvicorn backend.main:app --reload  
-frontend: (you may need to delete .next folder if its already there) then npm run build, npm run start
+```bash
+/backend: uvicorn backend.main:app --reload  
+/frontend: (you may need to delete .next folder if its already there) then npm run build, npm run start
