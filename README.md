@@ -48,8 +48,6 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
 
 ## Setup Instructions
 
-### 1. Backend Setup
-
 #### Prerequisites
 - Python 3.8 or later installed
 - OpenAI API key
@@ -62,7 +60,11 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
    cd movie-recommendation-rag/backend
    cd movie-recommendation-rag/frontend
 
-### Running the both frontend and backend
+### Running the Application
 ```bash
-/backend: uvicorn backend.main:app --reload  
-/frontend: (you may need to delete .next folder if its already there) then npm run build, npm run start
+/backend: uvicorn backend.main:app --reload
+
+/frontend: (you may need to delete .next folder if its already there with command rm -rf .next in /frontend directory) 
+          install npm
+          npm run build, 
+          npm run start
