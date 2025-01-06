@@ -41,6 +41,12 @@ This project implements a **Movie Recommendation Chatbot** using a **Retrieval-A
 ### Frontend
 - **Language**: Typescript
 - **Framework**: Next.js
+- **Library Installation**: 
+  ```bash
+  1. npm install next react react-dom
+  2. npm install typescript @types/react @types/node --save-dev
+  3. Create tsconfig.json with command or manually
+  with command: npx tsc --init
 
 ---
 ### Movie Data Source Link:
